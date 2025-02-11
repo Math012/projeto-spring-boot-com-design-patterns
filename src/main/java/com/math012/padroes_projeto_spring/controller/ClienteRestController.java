@@ -2,8 +2,7 @@ package com.math012.padroes_projeto_spring.controller;
 
 import com.math012.padroes_projeto_spring.model.Cliente;
 import com.math012.padroes_projeto_spring.service.ClienteService;
-import feign.Client;
-import feign.Response;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
