@@ -1,9 +1,10 @@
-package com.math012.padroes_projeto_spring.service;
+package com.math012.padroes_projeto_spring.service.cliente;
 
 import com.math012.padroes_projeto_spring.model.Cliente;
 import com.math012.padroes_projeto_spring.model.Endereco;
 import com.math012.padroes_projeto_spring.repository.ClienteRepository;
 import com.math012.padroes_projeto_spring.repository.EnderecoRepository;
+import com.math012.padroes_projeto_spring.service.viacep.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
