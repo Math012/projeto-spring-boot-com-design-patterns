@@ -1,10 +1,6 @@
-package com.math012.padroes_projeto_spring.service;
+package com.math012.padroes_projeto_spring.service.cliente;
 
 import com.math012.padroes_projeto_spring.model.Cliente;
-import org.springframework.context.annotation.Bean;
-
-
-
 
 
 public interface ClienteService {
