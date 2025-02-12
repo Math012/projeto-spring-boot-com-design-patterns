@@ -1,8 +1,11 @@
 package com.math012.padroes_projeto_spring.model;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class ExchangeRate {
     private String provider;
+    @JsonProperty("time_last_update_utc")
     private String timeLastUpdateUtc;
     private Rates rates;
 
