@@ -1,7 +1,7 @@
 package com.math012.padroes_projeto_spring.controller;
 
 import com.math012.padroes_projeto_spring.model.Cliente;
-import com.math012.padroes_projeto_spring.service.ClienteService;
+import com.math012.padroes_projeto_spring.service.cliente.ClienteService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
