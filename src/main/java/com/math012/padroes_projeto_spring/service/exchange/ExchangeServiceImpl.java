@@ -16,6 +16,6 @@ public class ExchangeServiceImpl implements ExchangeService{
     public String consultarCambio(String de, String para) {
         ExchangeRate exchangeRate = exchangeRateService.consultarCambio(de);
         Map<String, Double> rates = exchangeRate.getRates().listaDeMoedasDisponiveis();
-        return "A moeda " + de + " convertida para a moeda: " + para + ", tem o valor de: " + rates.get(para);
+        return "A moeda " + de + " convertida para a moeda: " + para + ", tem o valor de: " + rates.get(para)+"\n"+"data: "+exchangeRate.getTimeLastUpdateUtc();
     }
 }
